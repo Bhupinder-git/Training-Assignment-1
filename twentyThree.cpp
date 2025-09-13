@@ -9,8 +9,8 @@ int main(){
     cin>>n;
 
     int sum;
-    for(int i = 0; i <= n; i+=2){
-        sum += i;
+    for(int i = 1; i <= n; i++){
+        sum += 2*i;
     }
 
     cout<<"Sum of first "<<n<<" even natural numbers is : "<<sum<<endl;
